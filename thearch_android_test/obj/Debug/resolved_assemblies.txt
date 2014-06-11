@@ -1,0 +1,3 @@
+/Users/kamil/Projects/thearch_android_test/thearch_android_test/bin/Debug/thearch_android_test.dll
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/FSharp.Core.dll
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/bin/Debug/thearch_api_wrapper_android.dll

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="thearch_android_test/SectorsAdapter.fs">
+    <Files>
+      <File FileName="thearch_android_test/MainActivity.fs" Line="17" Column="31" />
+      <File FileName="thearch_android_test/CircuitProblemsActivity.fs" Line="39" Column="3" />
+      <File FileName="thearch_api_wrapper/Component1.fs" Line="46" Column="17" />
+      <File FileName="thearch_android_test/SectorsAdapter.fs" Line="16" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.thearch__android__test AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

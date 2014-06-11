@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_android_test", "thearch_android_test\thearch_android_test.fsproj", "{22F15BAC-B405-4975-A229-3C953DE3F802}"
+EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_api_wrapper", "thearch_api_wrapper\thearch_api_wrapper.fsproj", "{6801FE52-1171-4779-BE55-8B8387C2417E}"
+EndProject
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_api_wrapper_android", "thearch_api_wrapper_android\thearch_api_wrapper_android.fsproj", "{B71EDB4F-F89F-46C8-96FE-08A828AD4872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F15BAC-B405-4975-A229-3C953DE3F802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F15BAC-B405-4975-A229-3C953DE3F802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F15BAC-B405-4975-A229-3C953DE3F802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F15BAC-B405-4975-A229-3C953DE3F802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6801FE52-1171-4779-BE55-8B8387C2417E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6801FE52-1171-4779-BE55-8B8387C2417E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6801FE52-1171-4779-BE55-8B8387C2417E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6801FE52-1171-4779-BE55-8B8387C2417E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71EDB4F-F89F-46C8-96FE-08A828AD4872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71EDB4F-F89F-46C8-96FE-08A828AD4872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71EDB4F-F89F-46C8-96FE-08A828AD4872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71EDB4F-F89F-46C8-96FE-08A828AD4872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = thearch_android_test\thearch_android_test.fsproj
+	EndGlobalSection
+EndGlobal

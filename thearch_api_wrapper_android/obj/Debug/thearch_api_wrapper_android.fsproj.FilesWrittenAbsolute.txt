@@ -1,0 +1,13 @@
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.fs
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/__AndroidLibraryProjects__.zip
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/bin/Debug/thearch_api_wrapper_android.dll.mdb
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/bin/Debug/thearch_api_wrapper_android.dll
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/bin/Debug/thearch_api_wrapper_android.thearch_api_wrapper_android.apk
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/android/bin/thearch_api_wrapper_android.thearch_api_wrapper_android.apk
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/res/values/strings.xml
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/R.cs.flag
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/bin/Debug/thearch_api_wrapper_android.thearch_api_wrapper_android-Signed.apk
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/uploadflags.txt
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/thearch_api_wrapper_android.dll
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/thearch_api_wrapper_android.dll.mdb
+/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper_android/obj/Debug/MonoAndroid,Version=v4.0.3.AssemblyAttribute.fs
