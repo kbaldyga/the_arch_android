@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="thearch_android_test.thearch_android_test">
   <uses-sdk android:minSdkVersion="15" />
   <application android:label="thearch_android_test" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="CircuitProblemsActivity" android:name="thearch_android_test.CircuitProblemsActivity" />
-    <activity android:label="thearch_android_test" android:name="thearch_android_test.MainActivity" />
+    <activity android:label="Circuit Problems" android:theme="@style/Theme.GlobalTheme" android:name="thearch_android_test.CircuitProblemsActivity" />
+    <activity android:label="The Arch Climbing Wall" android:theme="@style/Theme.GlobalTheme" android:name="thearch_android_test.MainActivity" />
     <activity android:label="SplashScreen" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="thearch_android_test.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

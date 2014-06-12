@@ -15,7 +15,7 @@ open Android.Widget
 
 open thearch_api_wrapper
 
-[<Activity (Label = "CircuitProblemsActivity")>]
+[<Activity (Label = "Circuit Problems", Theme = "@style/Theme.GlobalTheme")>]
 type CircuitProblemsActivity() =
   inherit ListActivity()
 
@@ -27,6 +27,7 @@ type CircuitProblemsActivity() =
             (Map.find("sector_name") <| snd s, Map.find("sector_info_short") <| snd s))
 
     x.ListAdapter <- new SectorsAdapter(x, items.ToList())
+    x.SetContentView(Resource_Layout.CircuitProblems)
 
   override x.OnListItemClick(listView, view, position, id) =
     let t = items.[position]

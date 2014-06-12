@@ -15,3 +15,5 @@
 /Users/kamil/Projects/thearch_android_test/thearch_android_test/bin/Debug/thearch_api_wrapper_android.dll.mdb
 /Users/kamil/Projects/thearch_android_test/thearch_android_test/obj/Debug/res/values/styles.xml
 /Users/kamil/Projects/thearch_android_test/thearch_android_test/obj/Debug/res/drawable/splash.png
+/Users/kamil/Projects/thearch_android_test/thearch_android_test/obj/Debug/res/layout/circuitproblems.xml
+/Users/kamil/Projects/thearch_android_test/thearch_android_test/obj/Debug/res/layout/circuitproblemsrow.xml

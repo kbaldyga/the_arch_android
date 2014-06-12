@@ -23,10 +23,10 @@ namespace thearch_android_test
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnExceptionee53a65f9b9f4a9484a5a57d4d167a5e of obj
-    exception ReturnNoneExceptionee53a65f9b9f4a9484a5a57d4d167a5e
+    exception ReturnExceptionfef99f0c04c34aaf8f246422b7fcdfd6 of obj
+    exception ReturnNoneExceptionfef99f0c04c34aaf8f246422b7fcdfd6
     [<AutoOpen>]
-    module FuncConvertFinalOverloadee53a65f9b9f4a9484a5a57d4d167a5e =
+    module FuncConvertFinalOverloadfef99f0c04c34aaf8f246422b7fcdfd6 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -68,8 +68,20 @@ namespace thearch_android_test
         
         (* partial *)Resource_Id () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f060001
+            static member Image = 2131099649
+            
             // aapt resource value: 0x7f060000
-            static member myButton = 2131099648
+            static member Text = 2131099648
+            
+            // aapt resource value: 0x7f060002
+            static member Text1 = 2131099650
+            
+            // aapt resource value: 0x7f060003
+            static member Text2 = 2131099651
+            
+            // aapt resource value: 0x7f060004
+            static member myButton = 2131099652
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -79,7 +91,13 @@ namespace thearch_android_test
         (* partial *)Resource_Layout () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             // aapt resource value: 0x7f030000
-            static member Main = 2130903040
+            static member CircuitProblems = 2130903040
+            
+            // aapt resource value: 0x7f030001
+            static member CircuitProblemsRow = 2130903041
+            
+            // aapt resource value: 0x7f030002
+            static member Main = 2130903042
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -104,6 +122,9 @@ namespace thearch_android_test
         
         (* partial *)Resource_Style () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f050001
+            static member Theme_GlobalTheme = 2131034113
+            
             // aapt resource value: 0x7f050000
             static member Theme_Splash = 2131034112
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)

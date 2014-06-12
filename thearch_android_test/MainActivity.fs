@@ -9,7 +9,8 @@ open Android.Runtime
 open Android.Views
 open Android.Widget
 
-[<Activity (Label = "thearch_android_test")>]
+[<Activity (Label = "The Arch Climbing Wall",
+            Theme = "@style/Theme.GlobalTheme")>]
 type MainActivity () =
     inherit Activity ()
 
