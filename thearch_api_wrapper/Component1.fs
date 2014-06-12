@@ -61,6 +61,6 @@ module api =
         | None ->
             sectorDataCached <- Some(parseXml <| getXml sector_url)
             sectorDataCached.Value
-    
-    //first |> snd |> fun m -> m.["area_name"];;
 
+    let getRoutesBySector id =
+        routeData |> List.filter(fun i -> (snd i).["sector_id"] |> int = id)
