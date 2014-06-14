@@ -12,6 +12,6 @@ type SplashScreen() =
   override x.OnCreate(bundle) =
     base.OnCreate (bundle)
     //api.cragData |> ignore
-    //api.routeData |> ignore
+    api.routeData |> ignore
     api.sectorData |> ignore
     x.StartActivity(typedefof<MainActivity>)

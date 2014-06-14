@@ -1,5 +1,0 @@
-/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.fs
-/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper/bin/Debug/thearch_api_wrapper.dll.mdb
-/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper/bin/Debug/thearch_api_wrapper.dll
-/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper/obj/Debug/thearch_api_wrapper.dll
-/Users/kamil/Projects/thearch_android_test/thearch_api_wrapper/obj/Debug/thearch_api_wrapper.dll.mdb

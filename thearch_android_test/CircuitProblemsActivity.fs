@@ -19,16 +19,19 @@ open thearch_api_wrapper
 type CircuitProblemsActivity() =
   inherit ListActivity()
 
-  let mutable items: (string*string) list = []
+  let mutable items: (int*string*string) list = []
   override x.OnCreate(bundle) =
     base.OnCreate (bundle)
     items <- api.sectorData 
+        |> List.sortBy (fun s -> snd s |> Map.find api.k_sortOrder |> int)
         |> List.map(fun s ->  
-            (Map.find("sector_name") <| snd s, Map.find("sector_info_short") <| snd s))
+            (fst s, Map.find api.k_sectorName <| snd s, Map.find api.k_sectorInfoShort <| snd s))
 
     x.ListAdapter <- new SectorsAdapter(x, items.ToList())
     x.SetContentView(Resource_Layout.CircuitProblems)
 
   override x.OnListItemClick(listView, view, position, id) =
-    let t = items.[position]
-    Toast.MakeText(x, fst t, ToastLength.Short).Show()
+    let sectorId,_,_ = items.[position]
+    let intent = new Intent(x, typedefof<RoutesActivity>) in
+    intent.PutExtra("sector_id", sectorId) |> ignore
+    x.StartActivity intent

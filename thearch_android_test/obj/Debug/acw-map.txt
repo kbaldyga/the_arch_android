@@ -1,4 +1,0 @@
-thearch_android_test.SectorsAdapter;thearch_android_test.SectorsAdapter
-thearch_android_test.CircuitProblemsActivity;thearch_android_test.CircuitProblemsActivity
-thearch_android_test.MainActivity;thearch_android_test.MainActivity
-thearch_android_test.SplashScreen;thearch_android_test.SplashScreen

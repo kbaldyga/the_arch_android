@@ -23,10 +23,10 @@ namespace thearch_android_test
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnExceptionfef99f0c04c34aaf8f246422b7fcdfd6 of obj
-    exception ReturnNoneExceptionfef99f0c04c34aaf8f246422b7fcdfd6
+    exception ReturnException499f6fa4ba5340ce9938a716cdba233c of obj
+    exception ReturnNoneException499f6fa4ba5340ce9938a716cdba233c
     [<AutoOpen>]
-    module FuncConvertFinalOverloadfef99f0c04c34aaf8f246422b7fcdfd6 =
+    module FuncConvertFinalOverload499f6fa4ba5340ce9938a716cdba233c =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -59,7 +59,10 @@ namespace thearch_android_test
             static member Icon = 2130837504
             
             // aapt resource value: 0x7f020001
-            static member splash = 2130837505
+            static member null_selector = 2130837505
+            
+            // aapt resource value: 0x7f020002
+            static member splash = 2130837506
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -82,6 +85,15 @@ namespace thearch_android_test
             
             // aapt resource value: 0x7f060004
             static member myButton = 2131099652
+            
+            // aapt resource value: 0x7f060005
+            static member outerLayout = 2131099653
+            
+            // aapt resource value: 0x7f060006
+            static member route_scrollView = 2131099654
+            
+            // aapt resource value: 0x7f060007
+            static member tableLayout = 2131099655
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -98,6 +110,9 @@ namespace thearch_android_test
             
             // aapt resource value: 0x7f030002
             static member Main = 2130903042
+            
+            // aapt resource value: 0x7f030003
+            static member RoutePicker = 2130903043
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
