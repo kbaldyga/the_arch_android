@@ -74,7 +74,6 @@
     <AndroidResource Include="Resources\layout\CircuitProblems.axml" />
     <AndroidResource Include="Resources\layout\CircuitProblemsRow.axml" />
     <AndroidResource Include="Resources\layout\RoutePicker.axml" />
-    <AndroidResource Include="Resources\drawable\null_selector.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

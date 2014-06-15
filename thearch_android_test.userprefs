@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="thearch_android_test/DatabaseAccess.fs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="thearch_android_test/SplashScreen.fs">
     <Files>
-      <File FileName="thearch_android_test/RoutesActivity.fs" Line="15" Column="1" />
-      <File FileName="thearch_android_test/DatabaseAccess.fs" Line="15" Column="14" />
+      <File FileName="thearch_android_test/RoutesActivity.fs" Line="46" Column="46" />
+      <File FileName="thearch_api_wrapper/Component1.fs" Line="18" Column="44" />
+      <File FileName="thearch_android_test/SplashScreen.fs" Line="18" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.thearch__android__test AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="4&quot; WVGA (Nexus S)" MonoForAntroid.PreferredTheme="Theme.GlobalTheme" />
+  <MonoDevelop.Ide.ItemProperties.thearch__android__test AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>

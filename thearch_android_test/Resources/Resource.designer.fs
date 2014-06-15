@@ -23,10 +23,10 @@ namespace thearch_android_test
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException99b3df3f5f9f44f3ba43552662bf7c97 of obj
-    exception ReturnNoneException99b3df3f5f9f44f3ba43552662bf7c97
+    exception ReturnException8634dba86f814d02a23cbd8d672eec34 of obj
+    exception ReturnNoneException8634dba86f814d02a23cbd8d672eec34
     [<AutoOpen>]
-    module FuncConvertFinalOverload99b3df3f5f9f44f3ba43552662bf7c97 =
+    module FuncConvertFinalOverload8634dba86f814d02a23cbd8d672eec34 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -59,10 +59,7 @@ namespace thearch_android_test
             static member Icon = 2130837504
             
             // aapt resource value: 0x7f020001
-            static member null_selector = 2130837505
-            
-            // aapt resource value: 0x7f020002
-            static member splash = 2130837506
+            static member splash = 2130837505
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
