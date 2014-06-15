@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.fs" />
     <Compile Include="Properties\AssemblyInfo.fs" />
+    <Compile Include="DatabaseAccess.fs" />
     <Compile Include="SectorsAdapter.fs">
     </Compile>
     <Compile Include="RoutesActivity.fs" />
@@ -77,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
+    <AndroidAsset Include="Assets\thearch_database.sqlite" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.FSharp.targets" />
   <ItemGroup>

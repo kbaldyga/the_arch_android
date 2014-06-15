@@ -15,6 +15,8 @@ module api =
     let k_sectorId = "sector_id"
     let k_cragId = "crag_id"
 
+    let c_dbName = "thearch_database.sqlite"
+
     let private crag_url = "http://thesendtopos.co.uk/appsupport/24928f42-59dd-4e3e-bf10-695f238c2c7a/crag_update.ashx"
     let private route_url = "http://thesendtopos.co.uk/appsupport/24928f42-59dd-4e3e-bf10-695f238c2c7a/route_update.ashx"
     let private sector_url = "http://thesendtopos.co.uk/appsupport/24928f42-59dd-4e3e-bf10-695f238c2c7a/sector_update.ashx"

@@ -20,6 +20,8 @@ open thearch_api_wrapper
 type RoutesActivity() =
   inherit Activity()
 
+  [<DefaultValue>]val mutable database:DatabaseAccess
+
   override x.OnCreate(bundle) =
     base.OnCreate (bundle)
     let columns = 3
@@ -31,6 +33,8 @@ type RoutesActivity() =
     let routes = api.getRoutesBySector sectorId 
                     |> List.sortBy(fun i -> snd i |> Map.find api.k_sortOrder |> int)
                     |> List.toArray 
+    x.database <- new DatabaseAccess(api.c_dbName, x)
+    let checkedRoutes = x.database.getCheckedRoutes()
     for i in 0..routes.Length/columns do
         let row = new TableRow(x)
         row.Id <- i
@@ -48,10 +52,12 @@ type RoutesActivity() =
                 btn.TextOn <- text
                 btn.TextOff <- text
                 btn.Gravity <- GravityFlags.Center
+                if checkedRoutes.Any(fun r -> r = fst route) then
+                    btn.Checked <- true
                 btn.Click.Add(fun args ->
-                    Toast.MakeText(x, string(btn.Id), ToastLength.Short).Show()
+                    if btn.Checked then x.database.checkRoute <| fst route
+                    else x.database.uncheckRoute <| fst route
                 )
                 row.AddView btn
        
         viewGroup.AddView row
-    Toast.MakeText(x, string(sectorId), ToastLength.Short).Show()

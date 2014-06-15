@@ -3,4 +3,5 @@
 	<uses-sdk />
 	<application android:label="thearch_android_test">
 	</application>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
