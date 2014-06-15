@@ -1,14 +1,29 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="thearch_android_test/RoutesActivity.fs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="thearch_android_test/RoutesActivity.fs" Line="33" Column="12" />
-      <File FileName="thearch_api_wrapper/Script.fsx" Line="7" Column="1" />
+      <File FileName="thearch_android_test/RoutesActivity.fs" Line="25" Column="20" />
+      <File FileName="thearch_api_wrapper/Component1.fs" Line="17" Column="5" />
+      <File FileName="thearch_android_test/CircuitProblemsActivity.fs" Line="37" Column="21" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="thearch_android_test" expanded="True">
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+            </Node>
+            <Node name="RoutesActivity.fs" selected="True" />
+          </Node>
+          <Node name="thearch_api_wrapper" expanded="True" />
+          <Node name="thearch_api_wrapper_android" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.thearch__android__test AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.GlobalTheme" />
+  <MonoDevelop.Ide.ItemProperties.thearch__android__test AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="Nexus S" MonoForAntroid.PreferredTheme="Theme.GlobalTheme" />
 </Properties>
