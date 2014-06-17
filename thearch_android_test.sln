@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_android_test", "thearch_android_test\thearch_android_test.fsproj", "{22F15BAC-B405-4975-A229-3C953DE3F802}"
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_android", "thearch_android_test\thearch_android.fsproj", "{22F15BAC-B405-4975-A229-3C953DE3F802}"
 EndProject
 Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "thearch_api_wrapper", "thearch_api_wrapper\thearch_api_wrapper.fsproj", "{6801FE52-1171-4779-BE55-8B8387C2417E}"
 EndProject
@@ -27,6 +27,26 @@ Global
 		{B71EDB4F-F89F-46C8-96FE-08A828AD4872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = thearch_android_test\thearch_android_test.fsproj
+		StartupItem = thearch_android_test\thearch_android.fsproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-fsharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabsToSpaces = False
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/xml
+		$0.XmlFormattingPolicy = $5
+		$5.inheritsSet = Mono
+		$5.inheritsScope = application/xml
+		$5.scope = application/xml
 	EndGlobalSection
 EndGlobal

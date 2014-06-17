@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="thearch_android_test.thearch_android_test">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="kbaldyga.thearch_android">
 	<uses-sdk />
-	<application android:label="thearch_android_test" android:icon="@drawable/icon">
+	<application android:label="thearch_android" android:icon="@drawable/icon">
 	</application>
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.INTERNET" />

@@ -1,4 +1,4 @@
-﻿namespace thearch_android_test
+﻿namespace thearch_android
 module AssemblyInfo =
 
   open System.Reflection
@@ -8,12 +8,12 @@ module AssemblyInfo =
   // Information about this assembly is defined by the following attributes. 
   // Change them to the values specific to your project.
 
-  [<assembly: AssemblyTitle("thearch_android_test")>]
-  [<assembly: AssemblyDescription("")>]
+  [<assembly: AssemblyTitle("thearch_android")>]
+  [<assembly: AssemblyDescription("The Arch Unofficial App")>]
   [<assembly: AssemblyConfiguration("")>]
-  [<assembly: AssemblyCompany("")>]
+  [<assembly: AssemblyCompany("kbaldyga")>]
   [<assembly: AssemblyProduct("")>]
-  [<assembly: AssemblyCopyright("kamil")>]
+  [<assembly: AssemblyCopyright("kbaldyga")>]
   [<assembly: AssemblyTrademark("")>]
   [<assembly: AssemblyCulture("")>]
 

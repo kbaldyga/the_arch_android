@@ -1,5 +1,5 @@
 ﻿
-namespace thearch_android_test
+namespace thearch_android
 
 open System
 open System.Collections.Generic
